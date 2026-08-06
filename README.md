@@ -9,7 +9,7 @@ HTML/CSS.
 
 ## Selected work
 
-### Energy Duel
+### [Energy Duel](https://github.com/netoaf/energy-duel)
 
 A local-network 1v1 browser game built with Node.js, Express and WebSocket. The
 server owns and validates the game state, including loadouts, cooldowns,
@@ -39,4 +39,3 @@ technical QA.
 
 Lisbon, Portugal ·
 [LinkedIn](https://www.linkedin.com/in/afonso-neto-a06581374/)
-
