@@ -1,49 +1,55 @@
-# Hi, I'm Afonso Neto
+<h1>Afonso Neto</h1>
 
-Final-year vocational software development student at INETE in Lisbon, focused
-on backend systems, automation and practical web development.
+**Software development student in Lisbon. I build backends that check their own work.**
 
-I build small, testable systems with clear validation and controlled execution.
-My current work is mainly in JavaScript, Node.js, Python, C#, SQL Server and
-HTML/CSS.
+Final year at INETE, focused on server-side logic, automation and the tests that
+prove both. I like systems where the rules live in one place, every action is
+validated, and nothing important happens without a human saying yes.
 
-## Selected work
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white" alt="C#">
+  <img src="https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white" alt=".NET">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?logo=microsoftsqlserver&logoColor=white" alt="SQL Server">
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white" alt="Playwright">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white" alt="GitHub Actions">
+</p>
 
-### [Energy Duel](https://github.com/netoaf/energy-duel)
+## Projects
 
-A local-network 1v1 browser game built with Node.js, Express and WebSocket. The
-server owns and validates the game state, including loadouts, cooldowns,
-rematches and sudden death. The repository includes automated
-combat-resolution tests and a passing CI workflow.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/netoaf/energy-duel"><img src="https://raw.githubusercontent.com/netoaf/energy-duel/main/docs/duel.jpg" alt="Energy Duel gameplay"></a>
+      <h3><a href="https://github.com/netoaf/energy-duel">Energy Duel</a></h3>
+      Real-time 1v1 browser game. The server owns every rule, so clients cannot cheat.
+      <br><sub>Node.js · WebSocket · 37 tested combat scenarios</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/netoaf/afmarket"><img src="https://raw.githubusercontent.com/netoaf/afmarket/main/docs/cart.jpg" alt="AFMarket cart and checkout"></a>
+      <h3><a href="https://github.com/netoaf/afmarket">AFMarket</a></h3>
+      Marketplace from catalogue to checkout. Stock, wallet and order commit in one transaction.
+      <br><sub>C# · ASP.NET Core MVC · EF Core · SQL Server</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/netoaf/leagle-job">Leagle Job</a></h3>
+      Job-search pipeline for Portugal. Finds and ranks vacancies, then stops: it never applies for you.
+      <br><sub>Node.js · Playwright · Go · 56 unit tests</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Lurien <sub>(private)</sub></h3>
+      Automation platform where every tool call passes permissions, schema validation, a confirmation gate and an audit log.
+      <br><sub>Walkthrough available on request</sub>
+    </td>
+  </tr>
+</table>
 
-### [AFMarket](https://github.com/netoaf/afmarket)
+## Open to
 
-An individual academic marketplace prototype built with C#, ASP.NET Core MVC,
-Entity Framework Core and SQL Server. It includes catalogue search, favourites,
-cart, simulated balance, transactional checkout, orders and stock management.
-The public version removes local credentials, hashes passwords and includes
-anti-forgery and session-scoping safeguards.
+Internships and junior roles in backend, full-stack, automation or QA.
 
-### [Leagle Job](https://github.com/netoaf/leagle-job)
-
-A local-first, Portugal-first job-search pipeline adapted from the open-source
-Career-Ops project. My extension adds evidence-based scoring, CV selection,
-privacy and quality gates, source safety controls and mandatory human review.
-It does not send emails or submit applications automatically.
-
-### Lurien - private work in progress
-
-A modular automation platform for controlled workflows inside applications and
-websites. The current private implementation includes permissions, schema
-validation, confirmation gates, tool execution, audit events and automated
-tests. A technical walkthrough or safe demo is available without exposing
-private runtime data.
-
-## What I'm looking for
-
-I am available for an internship starting in September 2026 and am especially
-interested in backend development, full-stack development, automation or
-technical QA.
-
-Lisbon, Portugal |
-[LinkedIn](https://www.linkedin.com/in/afonso-neto-a06581374/)
+[LinkedIn](https://www.linkedin.com/in/afonso-neto-a06581374/) · Lisbon, Portugal
